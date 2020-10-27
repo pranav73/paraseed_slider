@@ -1,0 +1,48 @@
+{
+  "name": "pranav/paraseed_slider",
+  "description": "A rich hero slider that allows you to display video and/or image slides.",
+  "type": "drupal-module",
+  "license": "GPL-2.0-or-later",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Pranav Aeer",
+      "email": "pranav.aeer@osseed.com"
+    }
+  ],
+  "repositories": {
+    "drupal": {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
+    },
+    "assets": {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  },
+  "require": {
+    "composer/installers": "~1.0",
+    "oomphinc/composer-installers-extender": "~1.0",
+    "cweagans/composer-patches": "~1.0",
+    "drupal/drupal-library-installer-plugin": "^0.3",
+    "drupal/core": "^8.8.0 || ~9.0.0",
+    "pranav/paraseed_media": "dev-master",
+    "drupal/entityqueue": "~1.0",
+    "drupal/rabbit_hole": "~1.0",
+    "drupal/field_group": "~3.0",
+    "drupal/length_indicator": "~1.0",
+    "drupal/advanced_text_formatter": "~2.0",
+    "drupal/maxlength": "~1.0"
+  },
+  "extra": {
+    "installer-types": [
+      "bower-asset",
+      "npm-asset"
+    ],
+    "installer-paths": {
+      "libraries/{$name}": [
+        "type:drupal-library"
+      ]
+    }
+  }
+}
