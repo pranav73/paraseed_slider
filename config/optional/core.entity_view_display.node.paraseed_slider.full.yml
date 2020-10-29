@@ -1,24 +1,29 @@
-uuid: b16399cb-0dbb-44b4-96b8-d59ea2484b26
+uuid: d04b5c4a-4170-4274-ab94-6ced1c2688a3
 langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.node.full
     - field.field.node.paraseed_slider.field_brief
     - field.field.node.paraseed_slider.field_link
     - field.field.node.paraseed_slider.field_media_single
-    - image.style.slick_media
     - node.type.paraseed_slider
   module:
     - blazy
     - ds
+    - layout_builder
     - link
     - user
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: false
 _core:
   default_config_hash: 230X1D4i_JgGXFAo9FWyCcRZG5TzEfknOHgXZCsA8a0
-id: node.paraseed_slider.default
+id: node.paraseed_slider.full
 targetEntityType: node
 bundle: paraseed_slider
-mode: default
+mode: full
 content:
   content_moderation_control:
     weight: -20
@@ -55,14 +60,14 @@ content:
     weight: 0
     label: hidden
     settings:
-      image_style: slick_media
+      image_style: ''
       responsive_image_style: ''
       media_switch: ''
       thumbnail_style: ''
       ratio: ''
       view_mode: paraseed_slider
       image: ''
-      current_view_mode: default
+      current_view_mode: full
       background: false
       caption:
         field_media_cover_image: '0'

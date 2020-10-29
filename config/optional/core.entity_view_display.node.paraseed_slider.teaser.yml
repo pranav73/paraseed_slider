@@ -1,3 +1,4 @@
+uuid: b1724dea-3485-4bb2-8f9b-273bbef373fc
 langcode: en
 status: false
 dependencies:
@@ -9,6 +10,8 @@ dependencies:
     - node.type.paraseed_slider
   module:
     - user
+_core:
+  default_config_hash: X8H_57odGsGG2Piz7Hz4k8omHLhZMHoRSIxQ_9ticc4
 id: node.paraseed_slider.teaser
 targetEntityType: node
 bundle: paraseed_slider

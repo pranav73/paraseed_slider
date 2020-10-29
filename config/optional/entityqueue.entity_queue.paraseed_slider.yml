@@ -4,7 +4,7 @@ dependencies:
   module:
     - node
 id: paraseed_slider
-label: 'Media Hero Slider'
+label: 'Paraseed Slider'
 handler: simple
 handler_configuration: {  }
 entity_settings:

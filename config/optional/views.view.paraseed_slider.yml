@@ -462,7 +462,7 @@ display:
   paraseed_slider:
     display_plugin: block
     id: paraseed_slider
-    display_title: 'Paraseed Slider'
+    display_title: 'Media Hero Slider'
     position: 1
     display_options:
       display_extenders:
