@@ -14,7 +14,7 @@ dependencies:
     - link
     - user
 _core:
-  default_config_hash: 230X1D4i_JgGXFAo9FWyCcRZG5TzEfknOHgXZCsA8a0
+  default_config_hash: eiiRp-2zdl5cujeDQqEmTpowpE5rnYhh1amBwg5hJiA
 id: node.paraseed_slider.default
 targetEntityType: node
 bundle: paraseed_slider
